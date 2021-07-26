@@ -4,7 +4,7 @@ namespace jeu_de_maths
 {
     class Program
     {
-        enum e_Operateur
+        enum e_Operateur //Permet de mettre des mots sur des choix, plus clair
         {
             ADDITION = 1,
             MULTIPLICATION = 2,
@@ -16,13 +16,13 @@ namespace jeu_de_maths
             var rand = new Random();
             int a = rand.Next(min, max+1);
             int b = rand.Next(min, max+1);
-            e_Operateur o = (e_Operateur)rand.Next(1, 4);
+            e_Operateur o = (e_Operateur)rand.Next(1, 4); //Choisit aléatoirement si la prochaine question sera une addition, soustraction, ou multiplication
             int resultatAttendu = 0;
 
             int reponseInt = 0;
             while (true)
             {
-                //
+                // Fait la même chose que les "if" suivants, mais en utilisant le switch case
 
                 /*switch (o)
                 {
@@ -43,6 +43,7 @@ namespace jeu_de_maths
                         return false;
                 }*/
 
+                //En fonction de l'opérateur choisit aléatoirement, on fait le calcul associé
                 if (o == e_Operateur.ADDITION)
                 {
                     Console.WriteLine($"{a} + {b} = ");
@@ -67,7 +68,7 @@ namespace jeu_de_maths
                 string reponse = Console.ReadLine();
                 try
                 {
-                    reponseInt = int.Parse(reponse);
+                    reponseInt = int.Parse(reponse); // On vérifie que le user a bien rentré un int
                     if(reponseInt == resultatAttendu)
                     {
                         return true;
@@ -89,12 +90,13 @@ namespace jeu_de_maths
         {
             const int NB_MIN = 1;
             const int NB_MAX = 10;
-            const int NB_QUESTIONS = 3;
+            const int NB_QUESTIONS = 6;
 
             int points = 0;
             float moyenne = NB_QUESTIONS / 2f;
 
-            for (int i =0; i<NB_QUESTIONS; i++)
+            //On lance le jeu et on compte les points
+            for (int i =0; i<NB_QUESTIONS; i++) 
             {
                 Console.WriteLine($"Question {(i+1)} sur {NB_QUESTIONS}");
                 bool bonneReponse = PoserQuestion(NB_MIN, NB_MAX);
@@ -110,6 +112,8 @@ namespace jeu_de_maths
                 }
                 Console.WriteLine();
             }
+
+            //En fonction des points, on affiche un commentaire sur la performance
             Console.WriteLine($"Vous avez {points} points sur {NB_QUESTIONS} questions");
             if(points == NB_QUESTIONS)
             {
@@ -117,7 +121,7 @@ namespace jeu_de_maths
             }
             else if(points == 0)
             {
-                Console.WriteLine("Passez par le primaire");
+                Console.WriteLine("Veuillez repassez l'école primaire svp");
             }
             else if(points < moyenne)
             {
