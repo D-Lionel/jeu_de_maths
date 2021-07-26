@@ -1,0 +1,16 @@
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\bin\Debug\net5.0\jeu_de_maths.exe
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\bin\Debug\net5.0\jeu_de_maths.deps.json
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\bin\Debug\net5.0\jeu_de_maths.runtimeconfig.json
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\bin\Debug\net5.0\jeu_de_maths.runtimeconfig.dev.json
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\bin\Debug\net5.0\jeu_de_maths.dll
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\bin\Debug\net5.0\ref\jeu_de_maths.dll
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\bin\Debug\net5.0\jeu_de_maths.pdb
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\obj\Debug\net5.0\jeu_de_maths.GeneratedMSBuildEditorConfig.editorconfig
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\obj\Debug\net5.0\jeu_de_maths.AssemblyInfoInputs.cache
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\obj\Debug\net5.0\jeu_de_maths.AssemblyInfo.cs
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\obj\Debug\net5.0\jeu_de_maths.csproj.CoreCompileInputs.cache
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\obj\Debug\net5.0\jeu_de_maths.dll
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\obj\Debug\net5.0\ref\jeu_de_maths.dll
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\obj\Debug\net5.0\jeu_de_maths.pdb
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\obj\Debug\net5.0\jeu_de_maths.genruntimeconfig.cache
+F:\Udemy\CSharp\jeu_de_maths\jeu_de_maths\obj\Debug\net5.0\jeu_de_maths.csproj.AssemblyReference.cache
